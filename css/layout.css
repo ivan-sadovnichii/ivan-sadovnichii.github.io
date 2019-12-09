@@ -1,0 +1,82 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.container,
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+a {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+
+
+header .row {
+    min-height: 100vh;
+} 
+
+section {
+    min-height: 100vh;    
+    padding: 50px 0;  
+}
+
+ #s2,  {
+    background-color: #999; /* Колір фону для секцій #s2, #s4 */
+}
+
+#s4 {
+    line-height: 3;
+}
+
+#s4 a{
+    color: black;
+}
+
+#s4 a:hover{
+    color: red;
+}
+.social{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    margin-top: -25px;
+}
+
+
+
+@media screen and (max-width:575px) {
+    .container,
+    .navbar {
+        padding-left: 15px;    
+        padding-right: 15px;   
+    }
+@media screen and (max-width:376px) {
+    .social{
+        
+       display: flex;
+    flex-direction: column;
+    justify-content: center;
+        margin-top: 25px;
+   
+  
+    }
+    }
+    
+
+    
+
+    section {
+        padding: 250px 0;
+    }
+
+}
